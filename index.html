@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!--[if lt IE 9]>
+    <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+<![endif]-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAtkDI9VFvNkgbw-dc2IWqgKRtAEONUKDg&sensor=false" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" type="text/javascript"></script>
+    <script src="js/jquery.easie.js" type="text/javascript"></script>
+    <script src="js/scrollSpeed.js" type="text/javascript"></script>
+    <script src="js/googleScript.js" type="text/javascript"></script>
+    <script src="js/script.js" type="text/javascript"></script>
+<!--    <script src="js/modal.js" type="text/javascript"></script>-->
+</head>
+<body>
+   <div id="closeModeless"><a href="#"><img src="img/close-button-large.png" alt="Modeless closebutton"></a></div>
+   <div id="mobilediv">
+        <img src="img/mobileMenuIcon.png" alt="mobileMenuIcon">
+   </div>
+   <div id="slideBg"></div>
+   <div id="mobilemenu">
+      <img src="img/close-button-large.png" alt="menuclose" id="menuclose">
+       <nav>
+           <ul>
+               <li id="mobilemenulogo"><span>Navigation</span></li>
+               <li><span>Main</span></li>
+               <li><span>Intro</span></li>
+               <li><span>Bukchon 1 View</span></li>
+               <li><span>Bukchon 2 View</span></li>
+               <li><span>Bukchon 3 View</span></li>
+               <li><span>Bukchon 4 View</span></li>
+               <li><span>Bukchon 5 View</span></li>
+               <li><span>Bukchon 6 View</span></li>
+               <li><span>Bukchon 7 View</span></li>
+               <li><span>Bukchon 8 View</span></li>
+           </ul>
+       </nav>
+   </div>
+    <div id="wrap">
+       <div id="main" class="block">
+            <div id="carousel">
+                <ul id="carouselInner">
+                    <li><img src="img/resize_bongwonsa.jpg" alt="dummy"></li>
+                    <li><img src="img/bongwonsa2.jpg" alt="dummy"></li>
+                    <li><img src="img/bongwonsa3.jpg" alt="dummy"></li>
+                </ul>
+                  <h1 id="logo">Bukchon Hanok Villege</h1>
+                  <!--<div id="linkset">
+                            <a href="#"><img src="img/jongno_logo.png" alt="jonglo"></a>
+                    <a href="#"><img src="img/bukchon_logo.png" alt="hanok"></a>
+            </div>-->
+            </div>
+        </div>
+       <div id="introduction" class="block">
+         <a href="#" id="intro_left"><img src="img/arrow-white-left.png" alt="moveToleft" ></a>
+         <a href="#" id="intro_right"><img src="img/arrow-white-right.png" alt="moveToright" ></a>
+         <div id="intro_carousel_wrapper">
+              <ul id="intro_carousel">
+                <li id="section1">
+                    <article class="intro">
+                <h2><span class="slash">/</span>Bukchon Hanok Villege</h2>
+                <p>
+                   <img src="img/intro_bukchon.jpg" alt="intro:bukchon">
+                    Surrounded by Gyeongbokgung(Palace), Changdeokgung(Palace) and Jongmyo Royal Shrine, Bukchon is a residential area in Seoul with countless hanoks(traditional Korean houses). Bukchon is also called "the street museum in the urban core," having many historical spots and cultural heritage sites.
+                </p>
+                <p>
+                    Since it is located in the northern part of Cheonggyecheon and Jongno, people named this area Bukchon, which means northern village. In the village, there are Gahoe-dong, Songhyeon-dong and Samcheong-dong, whose names evoke affection in all Seoulites.
+                </p>
+                <p>
+                    In the late Joseon Dynasty, the large-scaled land was partitioned into small-sized building sites for social and economic reasons. It is assumed that the hanoks closely located together in the village were rebuilt around 1930. The change in the form of hanok reflects the densification of the society due to the urbanization began at that time in Korea. Bukchon’s historic sites and cultural heritages from the Joseon Dynasty to modern times tell visitors the history of this area.
+                </p>
+                    </article>
+                    <article class="intro">
+                <h2><span class="slash">/</span>BukChon 8 Views</h2>
+                <p>
+                   <img src="img/resize_intro_8views.jpg" alt="intro:8views">
+                    "Bukchon 8 Views" is where people can fully enjoy the beauty of hanoks and the alleys in the area. Seoul has nominated eight different views and has set up "Photo Spots," from which you can easily find delight in the surroundings inside of Bukchon in order to develop the area as a Seoul’s most representative cultural tourist attraction. 
+                </p>
+                <p>
+                    Bukchon is a place where walking is strongly recommended. The alleys coil around like a maze, preserving traces of days long past. So why not have a look at Bukchon? You will certainly have a pleasant time while walking down the alleys of the Bukchon 8 Views.
+                </p>
+            </article>
+                </li>
+                <li id="section2">
+                  <article id="BCC">
+                       <h2><span class="slash">/</span>Bukchon Traditional Culture Center</h2>
+                       <div class="imgAlign">
+                       <img src="img/bukchonculture.jpg" alt="Bukchon Traditional Culture Center">
+                       </div>
+                       <p>The Bukchon Traditional Culture Center was opened in October 2002 in order to offer a chance to share the better traditional cultural programs and to implant pride in people.</p>
+                       <p>
+                           Originally, this place was the residence of the Min family - the family in charge of finance during the last days of the Joseon Dynasty.
+                       </p>
+                       <p>
+                           The house is comprised of the anchae (the main building of a house), the bakkatchae (outer quarters), a haengrangchae (an annex), a byeolchae (a separated building) and a Sadang (a shrine); however, it has been restored a few times.
+                       </p>
+                    </article> 
+                   <article id="TIC">
+                       <h2><span class="slash">/</span>The way to come Bukchon</h2>
+                       <div class="imgAlign">
+                        <img src="img/start.JPG" alt="google map, starting point">
+                        </div>
+                       <h3>Tourist Information Center</h3>
+                       <p>
+                           <b>Bus</b><br>
+                           Local line(green bus) : 7025 <br>
+                           Arterial line(blue bus) : 109, 151, 162, 171, 172, 272, 601 <br>
+                           Airport Bus : 602-1<br>
+                           <b>Subway</b><br>
+                           Subway Line 3, Anguk Station Exit No.2
+                           <b>Phone</b><br>
+                            02-2148-4160
+                       </p>
+                   </article>  
+                </li>
+              </ul>
+          </div>
+    </div>
+    <nav id="menu1">
+           <ul>
+                <li>
+                    <a href="#main">
+                        <div class="nav_circle"></div><span>Main</span>
+                    </a>
+                </li>
+                <li>
+                   <a href="#introduction">
+                       <div class="nav_circle"></div><span>Intro</span>
+                   </a>
+                </li>
+                <li>
+                   <a href="#view1">
+                       <div class="nav_circle"></div><span>Bukchon 1 Views</span>
+                  </a>
+                </li>
+                <li>
+                    <a href="#view2">
+                        <div class="nav_circle"></div><span>Bukchon 2 Views</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#view3">
+                        <div class="nav_circle"></div><span>Bukchon 3 Views</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#view4">
+                        <div class="nav_circle"></div><span>Bukchon 4 Views</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#view5">
+                        <div class="nav_circle"></div><span>Bukchon 5 Views</span>
+                        </a>
+                </li>
+                <li>
+                    <a href="#view6">
+                        <div class="nav_circle"></div><span>Bukchon 6 Views</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#view7">
+                        <div class="nav_circle"></div><span>Bukchon 7 Views</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#view8">
+                        <div class="nav_circle"></div><span>Bukchon 8 Views</span>
+                    </a>
+                </li>
+           </ul>
+       </nav>
+       <div id="map_wrapper">
+           <div id="map_canvas"></div>  
+       </div>
+       <div class="scrollarea">
+       </div>   
+       <div id="view1" class="block views">
+           <article class="viewsText">
+             <a class="plus" href="#"><img src="img/plus.jpg.png" alt="more infomation"></a>
+              <div class="viewsImg">
+               <a href="#"><img class="viewImgtag" src="img/view1.jpg" alt="Bukchon 1 view"></a>
+              </div>
+              <br>
+               <div class="numberdiv">
+                <span class="numbering">01</span>
+               </div>
+               <h2>Bukchon 1 view</h2>
+               <div class="yellow-bar"></div>
+               <p>This is where the best view of Changdeokgung(Palace) can be seen beyond the stone walls.</p>
+           </article>
+           <div class="modalessBG"></div>
+           <div class="modaless">
+               <div class="_background">
+                  <div class="_modal">
+          <ul>
+           <li><img src="img/1%EA%B2%BD(1).JPG" alt="Changdeokgung"><p><br>Bukchon 1 view : hangdeokgung(palace) views<br>Bukchon first eight severity is the right place where sweeping views Changdeokgung<br></p></li>
+           <li><img src="img/1%EA%B2%BD(2).JPG" alt="Changdeokgung"><p><br>Bukchon 1 view : hangdeokgung(palace) views<br>Where foreground looking over a stone wall stretches Changdeokgung Bukchon 1 view.</p></li>
+           <li><img src="img/1%EA%B2%BD(3).JPG" alt="Korea Museum of Fine Arts"><p><br>In deokgung doldamgil walk along the road to Wonseo-dong workshop looks at the left side of Korea Museum of Fine Arts.</p></li>
+          </ul>
+      </div>
+               </div>
+               <div class="arrow_container">
+      <div>
+        <a href="#" class="left"><img src="img/arrow-white-left.png" alt="left arrow"></a>
+        <a href="#" class="right"><img src="img/arrow-white-right.png" alt="right arrow"></a>
+      </div>
+           </div>
+           </div>
+        </div>
+       <div class="scrollarea">
+       </div>   
+       <div id="view2" class="block views">
+           <article class="viewsText">
+             <a class="plus" href="#"><img src="img/plus.jpg.png" alt="more infomation"></a>
+              <div class="viewsImg">
+               <a href="#"><img class="viewImgtag" src="img/view2.jpg" alt="Bukchon 2 view"></a>
+              </div>
+              <br>
+               <div class="numberdiv">
+                <span class="numbering">02</span>
+               </div>
+               <h2>Bukchon 2 view</h2>
+               <div class="yellow-bar"></div>
+               <p>The second photo spot is at the end of the Changdeokgung(Palace)'s stone wall alley.</p>
+           </article>
+           <div class="modalessBG"></div>
+           <div class="modaless">
+               <div class="_background">
+                  <div class="_modal">
+                      <ul>
+                          <li><img src="img/2%EA%B2%BD(1).JPG" alt="Bukchon 2 view : Wonseo-dong Arts & Crafts Alleyway"><p><br>Bukchon 2 view : Wonseo-dong Arts & Crafts Alleyway<br>Where traces of care for people living on his way to one of the royal family.</p></li>
+           <li><img src="img/2%EA%B2%BD(2).JPG" alt="Wonseo-dong wash place"><p><br>Wonseo-dong wash place .<br>When you reach the end Bukchon laundry looks around the studio Street alley.</p></li>
+           <li><img src="img/2%EA%B2%BD(4).JPG" alt="Wonseo-dong  hongbeom Baek houses"><p><br>Wonseo-dong  hongbeom Baek houses. Seoul folklore No. 13.<br>Looking up at a little wash-up Wonseo-dong are baekhongbeom houses.<br>The house site is said to have lived dolbodeon sanggung house site to one of the palaces.</p></li>
+          </ul>
+                  </div>
+               </div>
+               <div class="arrow_container">
+               <div>
+        <a href="#" class="left"><img src="img/arrow-white-left.png" alt="left arrow"></a>
+        <a href="#" class="right"><img src="img/arrow-white-right.png" alt="right arrow"></a>
+      </div>
+           </div>
+           </div>
+       </div>   
+       <div class="scrollarea">
+       </div>   
+       <div id="view3" class="block views">
+           <article class="viewsText">
+             <a class="plus" href="#"><img src="img/plus.jpg.png" alt="more infomation"></a>
+              <div class="viewsImg">
+               <a href="#"><img class="viewImgtag" src="img/view3.jpg" alt="Bukchon 3 view"></a>
+              </div>
+              <br>
+               <div class="numberdiv">
+                <span class="numbering">03</span>
+               </div>
+               <h2>Bukchon 3 view</h2>
+               <div class="yellow-bar"></div>
+               <p>The area of 11 Gahoe-dong is the thied photo spot of Bukchon. Here you will see the museums and workshops of traditional craftwork.</p>
+           </article>
+           <div class="modalessBG"></div>
+           <div class="modaless">
+               <div class="_background">
+                  <div class="_modal">
+                      <ul>
+                          <li><img src="img/3%EA%B2%BD(2).JPG" alt="Bukchon 3 view : 12 road to Bukchon"><p><br>Bukchon 3 view : 12 road to Bukchon.<br>Bukchon 3 view is in an alley and several workshops are located with a view of the interior and Hanok, <br> can experience the traditional culture.</p></li>
+           <li><img src="img/3%EA%B2%BD(3).JPG" alt="The side alleys"><p><br>The side alleys, accidentally meet Bukchon Experience traditional crafts, folk Gahoe workshops, Hanok Experience Center, Dongrim knots workshop, etc..</p></li>
+           <li><img src="img/3%EA%B2%BD(3).JPG" alt="The side alleys"><p><br>The side alleys, accidentally meet Bukchon Experience traditional crafts, folk Gahoe workshops, Hanok Experience Center, Dongrim knots workshop, etc..</p></li>
+           <li><img src="img/3%EA%B2%BD(8).JPG" alt="locust tree"><p><br>Bukchon is a famous kind of locust tree . <br> It is also close to Bukchon Observatory in place.</p></li>
+          </ul>
+                  </div>
+               </div>
+               <div class="arrow_container">
+               <div>
+        <a href="#" class="left"><img src="img/arrow-white-left.png" alt="left arrow"></a>
+        <a href="#" class="right"><img src="img/arrow-white-right.png" alt="right arrow"></a>
+      </div>
+           </div>
+           </div>
+       </div> 
+       <div class="scrollarea">
+       </div>   
+       <div id="view4" class="block views">
+           <article class="viewsText">
+             <a class="plus" href="#"><img src="img/plus.jpg.png" alt="more infomation"></a>
+              <div class="viewsImg">
+               <a href="#"><img class="viewImgtag" src="img/view4.jpg" alt="Bukchon 4th view"></a>
+              </div>
+              <br>
+               <div class="numberdiv">
+                <span class="numbering">04</span>
+               </div>
+               <h2>Bukchon 4th view</h2>
+               <div class="yellow-bar"></div>
+               <p>Cross the Gahoe-ro and turn into the alley next to the Donmi pharmacy. This is the area of 31 Gahoe-dong.</p>
+           </article>
+           <div class="modalessBG"></div>
+           <div class="modaless">
+               <div class="_background">
+                  <div class="_modal">
+                      <ul>
+                         <li><img src="img/4%EA%B2%BD(1).JPG" alt="An alley of Bukchon 4th view"><p><br>An alley of Bukchon 4th view</p></li>
+           <li><img src="img/4%EA%B2%BD(2).JPG" alt="11 Hill Road in Bukchon"><p><br>Bukchon 4th view : 11 Hill Road in Bukchon<br>It seems many tiled roofs.</p></li>
+           <li><img src="img/4%EA%B2%BD(3).JPG" alt="alert: a little quiet, please."><p><br>
+There are locals live, <br> a little quiet, please.</p></li>
+          </ul>
+                  </div>
+               </div>
+               <div class="arrow_container">
+               <div>
+        <a href="#" class="left"><img src="img/arrow-white-left.png" alt="left arrow"></a>
+        <a href="#" class="right"><img src="img/arrow-white-right.png" alt="right arrow"></a>
+      </div>
+           </div>
+           </div>
+       </div> 
+       <div class="scrollarea">
+       </div>   
+       <div id="view5" class="block views">
+           <article class="viewsText">
+             <a class="plus" href="#"><img src="img/plus.jpg.png" alt="more infomation"></a>
+              <div class="viewsImg">
+               <a href="#"><img class="viewImgtag" src="img/view.5.jpg" alt="Bukchon 5 view"></a>
+              </div>
+              <br>
+               <div class="numberdiv">
+                <span class="numbering">05</span>
+               </div>
+               <h2>Bukchon 5th view</h2>
+               <div class="yellow-bar"></div>
+               <p>The fifth photo spot is hidden in one of the alleys in the area of 31 Gahoe-dong. After passing by a large tree trunk of the upper side of the stree, you will find an array of antique hanoks.</p>
+           </article>
+           <div class="modalessBG"></div>
+           <div class="modaless">
+               <div class="_background">
+                  <div class="_modal">
+                      <ul>
+                         <li><img src="img/5%EA%B2%BD(1).JPG" alt="Bukchon 5th view : an alley of Gahoe-dong"><p><br>Bukchon 5th view : an alley of Gahoe-dong<br>The most popular sight in Bukchon Hanok Village.</p></li>
+           <li><img src="img/5%EA%B2%BD(2).JPG" alt="Bukchon 5th view : an alley of Gahoe-dong (2)"><p><br>Bukchon 5th view : an alley of Gahoe-dong (2)</p></li>
+           <li><img src="img/5%EA%B2%BD(3).JPG" alt="The kokdu and hanok"><p><br>The kokdu and hanok.<br>Puppet exhibited wooden dolls called kokdu.</p></li>
+          </ul>
+                  </div>
+               </div>
+               <div class="arrow_container">
+               <div>
+        <a href="#" class="left"><img src="img/arrow-white-left.png" alt="left arrow"></a>
+        <a href="#" class="right"><img src="img/arrow-white-right.png" alt="right arrow"></a>
+      </div>
+           </div>
+           </div>
+       </div> 
+       <div class="scrollarea">
+       </div>   
+       <div id="view6" class="block views">
+           <article class="viewsText">
+             <a class="plus" href="#"><img src="img/plus.jpg.png" alt="more infomation"></a>
+              <div class="viewsImg">
+               <a href="#"><img class="viewImgtag" src="img/view6.jpg" alt="Bukchon 6 view"></a>
+              </div>
+              <br>
+               <div class="numberdiv">
+                <span class="numbering">06</span>
+               </div>
+               <h2>Bukchon 6th view</h2>
+               <div class="yellow-bar"></div>
+               <p>Go straight up along the row of hanok roofs resembling Mount Bugak-mountain. The sixth photo spot is right there.</p>
+           </article>
+           <div class="modalessBG"></div>
+           <div class="modaless">
+               <div class="_background">
+                  <div class="_modal">
+                      <ul>
+                         <li><img src="img/6%EA%B2%BD(1).JPG" alt="Bukchon 6th view : an alley of Gahoe-dong"><p><br>Bukchon 6th view : an alley of Gahoe-dong</p></li>
+           <li><img src="img/6%EA%B2%BD(2).JPG" alt="Bukchon 6th view : an alley of Gahoe-dong(2)"><p><br>Bukchon 6th view : an alley of Gahoe-dong(2)</p></li>
+           <li><img src="img/6%EA%B2%BD(3).jpg" alt="Bukchon 6th view : an alley of Gahoe-dong(3)"><p><br>Bukchon 6th view : an alley of Gahoe-dong(3)</p></li>
+          </ul>
+                  </div>
+               </div>
+               <div class="arrow_container">
+               <div>
+        <a href="#" class="left"><img src="img/arrow-white-left.png" alt="left arrow"></a>
+        <a href="#" class="right"><img src="img/arrow-white-right.png" alt="right arrow"></a>
+      </div>
+           </div>
+           </div>
+       </div> 
+       <div class="scrollarea">
+       </div>   
+       <div id="view7" class="block views">
+           <article class="viewsText">
+             <a class="plus" href="#"><img src="img/plus.jpg.png" alt="more infomation"></a>
+              <div class="viewsImg">
+               <a href="#"><img class="viewImgtag" src="img/view7.jpg" alt="Bukchon 7 view"></a>
+              </div>
+              <br>
+               <div class="numberdiv">
+                <span class="numbering">07</span>
+               </div>
+               <h2>Bukchon 7th view</h2>
+               <div class="yellow-bar"></div>
+               <p>Bukchon 5th and 6th views are known as the most popular alleys among the eight scenes; however, Bukchon 7th view is, if not as popular, at least ad charming in its simplicity and mood of quiet happiness.</p>
+           </article>
+           <div class="modalessBG"></div>
+           <div class="modaless">
+               <div class="_background">
+                  <div class="_modal">
+                      <ul>
+                         <li><img src="img/7%EA%B2%BD(1).JPG" alt="Bukchon 7th view : 11th way in Bukchon"><p><br>Bukchon 7th view : 11th way in Bukchon.</p></li>
+           <li><img src="img/7%EA%B2%BD(2).JPG" alt="Bukchon 7th view(2)"><p><br></p>Bukchon 7th view : 11th way in Bukchon.(2)</li>
+           <li><img src="img/7%EA%B2%BD(3).JPG" alt="Bukchon 7th view(3)"><p><br>Bukchon 7th view : 11th way in Bukchon.(3)</p></li>
+          </ul>
+                  </div>
+               </div>
+               <div class="arrow_container">
+               <div>
+        <a href="#" class="left"><img src="img/arrow-white-left.png" alt="left arrow"></a>
+        <a href="#" class="right"><img src="img/arrow-white-right.png" alt="right arrow"></a>
+      </div>
+           </div>
+           </div>
+       </div> 
+       <div class="scrollarea">
+       </div>   
+       <div id="view8" class="block views">
+           <article class="viewsText">
+             <a class="plus" href="#"><img src="img/plus.jpg.png" alt="more infomation"></a>
+              <div class="viewsImg">
+               <a href="#"><img class="viewImgtag" src="img/view8.jpg" alt="Bukchon 8th view"></a>
+              </div>
+              <br>
+               <div class="numberdiv">
+                <span class="numbering">08</span>
+               </div>
+               <h2>Bukchon 8th view</h2>
+               <div class="yellow-bar"></div>
+               <p>Follow the Bokjeong-gil past hanoks, mountains and the Chongwahdae(the office of the President)to a stairway connection to the Samcheongdong-gil.</p>
+           </article>
+           <div class="modalessBG"></div>
+           <div class="modaless">
+               <div class="_background">
+                  <div class="_modal">
+                      <ul>
+                         <li><img src="img/8%EA%B2%BD(1).JPG" alt="Bukchon 8th view : Samcheong-dong Stair-Rock"><p><br>Bukchon 8th view : Samcheong-dong Stair-Rock</p></li>
+           <li><img src="img/8%EA%B2%BD(2).JPG" alt="Bukchon 8th view : Samcheong-dong Stair-Rock(2)"><p><br>Samcheong-dong Stair-Rock is famous for dating site.</p></li>
+           <li><img src="img/8%EA%B2%BD(3).JPG" alt="Bukchon 8th view: photo spot"><p><br>Bukchon 8th view: photo spot</p></li>
+          </ul>
+                  </div>
+               </div>
+               <div class="arrow_container">
+               <div>
+        <a href="#" class="left"><img src="img/arrow-white-left.png" alt="left arrow"></a>
+        <a href="#" class="right"><img src="img/arrow-white-right.png" alt="right arrow"></a>
+      </div>
+           </div>
+       </div> 
+       </div>
+        <footer>
+        <div id="footerWrap">
+        <div id="footerimg">
+        <img src="img/footerimg.png" alt="">
+        </div>
+        <div id="name"><p>representative: Kim ki-young  <br> Address: Seoul Jongno-gu Kyedong-gil 37 <br> TEL: 010-1234-1234 <br> FAX: 02-1234-1234 <br> Personal Information : Kim-so ra
+        <address>Email: Bukchon@gmail.com</address> 
+       </div>
+       
+       <div id="linkImg">
+       <div id="jongnosite">
+        <a href="http://www.jongno.go.kr/englishMain.do" target="_blank"><img src="img/jongno_logo.png" alt="jongno-gu office logo" title="Go to jongno-gu office"></a>
+        </div>
+        
+         <div id="bukchonsite">
+        <a href="http://bukchon.seoul.go.kr/eng/index.jsp" target="_blank"><img src="img/bukchon_logo.png" alt="Bukchon hanok villege official logo" title="Bukchon hanok villege official homepage"></a>
+        </div>
+        </div>
+        </div>
+    </footer>
+    </div> <!--wrap end-->
+</body>
+</html>

@@ -1,0 +1,369 @@
+/* Large resolution PC */
+@media screen and (min-width:1441px){
+    #introduction h2{
+        font-size: 55px;
+    }
+    #introduction p{
+            font-size: 20px;
+    }
+    .viewsText h2{
+        font-size: 55px;
+    }
+    .viewsText .numbering{
+        font-size: 85px;
+    }
+    .viewsText .numbering:before{
+        height: 80px;
+    }
+    .viewsText p{
+        font-size: 22px;
+    }
+    #footerWrap{
+        margin-left: 25%;
+    }
+}
+/* Small resolution PC */
+@media screen and (min-width:1025px) and (max-width:1440px){
+    #introduction h2{
+        font-size: 35px;
+    }
+    #introduction p{
+        font-size: 15px;
+    }
+    .viewsText h2{
+        font-size: 45px;
+    }
+    .viewsText .numbering{
+        font-size: 65px;
+    }
+    .viewsText .numbering:before{
+        height: 60px;
+    }
+    .viewsText p{
+        font-size: 22px;
+    }
+}
+/* only PC */
+@media screen and (min-width:1025px){
+    #mobilediv{
+        display: none;
+    }
+    .intro{
+        width: 85%;
+    }
+    .views>.viewsText {
+	    width: 33%;
+    }
+    .modaless ._background{
+        width: 768px;
+    }
+    ._modal img{
+        width: 768px;
+    }
+    #footerWrap{
+        width:1025px;
+    }
+footer #footerimg{
+        width: 20%;
+    }
+    footer #footerimg img{
+        width: 50%;    
+        padding: 10px 5px;
+    }  
+    footer #name{
+        position: relative;
+        top: -20px;
+        font-size: 1em;
+        width: 40%;
+        margin: 0 3%;
+    }    
+    footer #linkImg{
+        position: relative;
+        top: -20px;
+        width: 30%;
+    }
+    footer #jongnosite img{
+            width: 55%;
+    }  
+    footer #bukchonsite img{
+            width: 80%;
+    }  
+}
+/* tablet PC */
+@media screen and (min-width:769px) and (max-width:1024px){
+    .scrollarea, #map_wrapper{
+        display: none;
+    }
+    #mobilediv{
+        display: none;
+    }
+    #logo{
+        left:25px;
+    }
+    /*.block{
+        overflow: visible;
+    }*/
+    #view1{
+/*        margin-top: 10px;*/
+    }
+    #section1{
+        margin-top: 100px;
+    }
+    #section2 article{
+        float:none;
+        width: 85%;    
+    }
+    #introduction h2{
+        font-size: 45px;
+    }
+    #intro_left, #intro_right{
+        display: none;
+    }
+    #section2{
+        display: none;
+    }
+    .views>.viewsText {
+	    width: 85%;
+    }
+    .viewsText h2{
+        font-size: 50px;
+    }
+    .viewsText .numbering{
+        font-size: 80px;
+    }
+    .viewsText .numbering:before{
+        height: 75px;
+    }
+    .viewsText p{
+        font-size: 20px;
+    }
+    footer{
+        width: 100%;
+    }
+    footer #footerimg{
+        width: 20%;
+    }
+    footer #footerimg img{
+        width: 100%;    
+        padding: 10px 5px;
+    }  
+    footer #name{
+        position: relative;
+        top: -35px;
+        font-size: 1em;
+        width: 40%;
+        margin: 0 3%;
+    }    
+    footer #linkImg{
+        position: relative;
+        top: -35px;
+        width: 30%;
+    }
+    footer #jongnosite img{
+            width: 75%;
+    }  
+    footer #bukchonsite img{
+            width: 100%;
+    }  
+}
+/* Mobile */
+@media screen and (min-width:541px) and (max-width:768px){
+    .scrollarea, #map_wrapper{
+        display: none;
+    }
+    #mobilediv{
+        display: block;
+    }
+    #menu1{
+        display: none;
+    }
+    #introduction h2{
+        font-size: 35px;
+    }
+/*    .block{
+        overflow: visible;
+    }*/
+    #view1{
+        margin-top: 1500px;
+    }
+    #introduction{
+        overflow: visible;
+        margin-top: 50px;
+    }
+    #introduction>img{
+    display: none;
+    }
+    #introduction>a{
+        display: none;
+    }
+    .intro_section{
+        margin: 0;
+    }
+    .intro {
+        margin-top:20px;
+    }
+    .intro h2 {
+        font-size: 35px;
+    }
+    .intro .slash {
+        margin-right: 17px;
+    }
+    #section2{
+        display: none;
+    }
+    .scrollarea {
+	    display: none;
+    }
+    .views>.viewsText {
+	    width: 85%;
+    }
+    .viewsText h2{
+        font-size: 45px;
+    }
+    .viewsText .numbering{
+        font-size: 75px;
+    }
+    .viewsText .numbering:before{
+        height: 70px;
+    }
+    .viewsText p{
+        font-size: 20px;
+    }
+    footer{
+        width: 100%;
+    }
+    footer #footerimg{
+        width: 20%;
+    }
+    footer #footerimg img{
+        width: 100%;    
+        padding: 10px 5px;
+    }  
+    footer #name{
+        position: relative;
+        top: -35px;
+        font-size: 12px;
+        width: 40%;
+        margin: 0 3%;
+    }    
+    footer #linkImg{
+        position: relative;
+        top: -35px;
+        width: 30%;
+    }
+    footer #jongnosite img{
+            width: 75%;
+    }  
+    footer #bukchonsite img{
+            width: 100%;
+    }  
+}
+@media screen and (min-width:320px) and (max-width:540px) {
+    .scrollarea, #map_wrapper{
+        display: none;
+    }
+    #mobilediv{
+        display: block;
+    }
+    #mobilemenulogo{
+        padding: 30px 30px !important;
+    }
+    #mobilemenu li{
+        padding: 15px 30px;
+    }
+    #menu1{
+        display: none;
+    }
+    #introduction{
+/*        overflow: visible;*/
+        margin-top: 50px;
+    }
+    .left{
+        top: -190px;
+    }
+    .right{
+        top: -190px;
+    }
+    #introduction h2{
+        margin-top: 50px;
+        font-size: 25px;
+    }
+    .intro_section{
+        margin: 0;
+/*        padding:10px 10px 10px 8px;*/
+    }
+    .intro {
+        margin-top:10px;
+    }
+    .intro .slash {
+        margin-right: 14px;
+    }
+    .intro p {
+        font-size: 13px;
+    }
+    .intro img {
+        width: 95%;
+    }
+    #section2{
+        display: none;
+    }
+    #introduction>a{
+        display: none;
+    }
+    .scrollarea {
+	    display: none;
+    }
+    .viewsText {
+	    width:100%;
+    }
+    .views>.viewsText {
+	    width: 85%;
+    }
+    .viewsText h2{
+        font-size: 35px;
+    }
+    .viewsText .numbering{
+        font-size: 50px;
+    }
+    .viewsText .numbering:before{
+        height: 50px;
+    }
+    .viewsText p{
+        font-size: 18px;
+    }
+    footer{
+        padding: 5px;
+        width: 100%;
+    }
+    footer strong, footer p, footer address{
+        font-size: 10px;
+    }
+    footer #footerimg{
+        width: 0px;
+    }
+    footer #footerimg img{
+        display: none;
+    }
+    footer #name{
+        font-size: 10px;
+        width: 45%;
+      /*  margin: -50px 0 0 100px;*/
+    }
+    footer #linkImg{
+        width:45%;
+    }
+    #linkImg div{
+        display: block;
+        float: right;
+    }
+    footer #jongnosite{
+        width:100%;
+    }
+    footer #jongnosite img{
+        float: right;
+        width:75%;
+    }
+    #bukchonsite img{
+        width:100%;    
+    }
+}

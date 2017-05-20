@@ -1,0 +1,373 @@
+@import url(https://fonts.googleapis.com/css?family=Playball|Libre+Baskerville|Roboto);
+body{
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Playball', cursive;
+}
+p{
+    font-family: 'Libre Baskerville', serif;
+}
+#closeModeless{
+    position: fixed;
+    float: right;
+    top: 20px;
+    right: 30px;
+    display: none;
+    z-index: 4;
+}
+#closeModeless img{
+    width: 60px;
+}
+#mobilediv{
+    position: fixed;
+    z-index: 2;
+    cursor: pointer;
+}
+#mobilediv img{
+    width: 60px;
+}
+#mobilemenu{
+    position: fixed;
+    z-index: 4;
+}
+
+#mobilemenu li{
+    /*border-top: 1px solid black;
+    border-bottom: 1px solid black;*/
+    padding: 20px 40px;
+    box-shadow: inset 0 -1px rgba(0,0,0,0.2);
+}
+#mobilemenu ul{
+    background-color: white;
+    text-align: center;
+}
+#mobilemenu a{
+    text-decoration: none;
+    font-family: 'Libre Baskerville', serif;
+    color: #5f6f81;
+}
+#mobilemenu a:active{
+    color: white;
+}
+#slideBg{
+    position: fixed;
+    z-index:3;
+}
+#mobilemenulogo{
+    padding: 40px 40px !important;
+    border-bottom: 1px solid black;
+    background-color: #5f6f81;
+    color: white;
+}
+#menuclose{
+    position: absolute;
+    cursor: pointer;
+    top:15px;
+    width: 50px;
+}
+#mobilemenulogo:active{
+    background-color: #5f6f81 !important;
+}
+#mobilemenulogo span{
+    font-family: 'Playball', cursive;
+    font-size: 25px;
+}
+#wrap{
+    background-color: black;
+    color: white;
+    width: 100%;
+    overflow: hidden;
+}
+#menu1{
+    position: fixed;
+    width: 200px;
+    left: 20px;
+    z-index: 1;
+    font-family: 'Roboto', sans-serif;
+}
+#menu1 span{
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 0.4em;
+    vertical-align: middle;
+    line-height: 12px;
+    margin-left:5px;
+    color: lightgrey; 
+    background: transparent;
+    opacity: 0;
+}
+/*#menu1 li:first-child div{
+    transform: scale(0.5);
+}*/
+.nav_circle{
+    line-height: 40px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid lightgray; 
+    background-color: #FFF;
+}
+.block{
+        overflow: hidden;
+    }
+#carousel{
+    overflow: hidden;
+}
+#carouselInner{
+    position: relative;
+}
+#carousel ul>li{
+    float: left;
+}
+#logo{
+    font-family: 'Playball', cursive;
+    color:white;
+    float:left;
+    position: absolute;
+    left: 50px;
+}
+#linkset{
+   float:right;
+    position: absolute; 
+    top: -175px;
+    right: 30px;
+}
+#linkset img{
+    width:50px;
+}
+#introduction{
+    overflow: hidden; 
+}
+#introduction h2{
+    font-family: 'Playball', cursive;
+    margin: 15px 0;
+}
+
+#intro_carousel{
+    position: relative;
+    top: -50px;
+}
+#introduction ul>li{
+    float: left;
+}
+.intro{
+/*    margin:30px 45px 12px 45px ;
+    margin-bottom: 12px;*/
+    margin: auto;
+    width:85%;
+}
+.slash{
+    margin: 0 30px;
+    color: yellow;
+}
+/*.intro>h2{
+    font-family: 'Playball', cursive;
+    font-size: 55px;
+    margin: 15px 0;
+}*/
+/*.intro>p{
+    text-indent: 8px;
+    line-height: 25px;
+    margin: 10px 0 10px 15px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+    text-align: justify;
+}*/
+#introduction p{
+    text-indent: 8px;
+    line-height: 25px;
+    margin: 10px 0 10px 15px;
+    font-family: 'Libre Baskerville', serif;
+}
+.intro>p{
+    text-align: justify;
+}
+.intro>p>img{
+    float: left;
+    margin:0 10px 10px 0; 
+}
+#introduction>a{
+    position: relative;
+    z-index: 1;
+}
+#introduction>a>img{
+    width:64px;
+    opacity: 0.3;
+}
+#introduction>a>img:hover{
+    opacity: 1.0;
+}
+#introduction>a:last-of-type{
+    float: right;
+}
+#section1{
+    position: relative;
+}
+#section2 article{
+    width:45%;
+/*    float: left;*/
+}
+
+#BCC {
+    float: left;
+	margin-left: 5%;
+    text-align: justify;
+}
+#BCC img{
+	width: 66%;
+}
+#TIC{
+    float: right;
+    text-align: justify;
+/*    margin-right: 5%;*/
+}
+#TIC img{
+    width: 66%;
+}
+.imgAlign{
+    text-align: center;
+}
+#TIC h3,#TIC p{
+    color:white;
+}
+#map_wrapper{
+   
+}
+#map_canvas{
+    position: relative;
+}
+.float-menu { 
+    position:fixed; 
+/*        top:0; */
+/*        width:50%; */
+/*        z-index:1; */
+/*        opacity:0.9; */
+      } 
+.views {
+/*	z-index: ;*/
+    position: relative;
+}
+.views>.viewsText {
+	width: 33%;
+    float: right;
+    margin: 5%;
+}
+.viewsText .numberdiv{
+    float:right;
+    font-family: 'Playball', cursive;
+}
+.viewsImg{
+    text-align:center; 
+}
+.viewsImg .viewImgtag{ 
+	width:90%;
+}
+.plus{
+    position: relative;
+    visibility:hidden;
+    top: 70px;
+    left: 50px;
+    z-index: 2;
+}
+.plus>img{
+    width:50px;
+}
+.viewsText h2{
+    margin-top: 50px;
+    font-size: 55px;
+}
+.viewsText .numbering{
+    font-size: 85px;
+    margin-bottom: 20px;
+}
+.viewsText .numbering:before{
+    content: "";
+    display: inline-block;
+    width: 2px;
+    background-color: #fecb2f;
+    position: absolute;
+    margin-left: -20px;
+    transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+}
+.viewsText .yellow-bar{
+    width: 100px;
+    height: 3px;
+    background-color: #fecb2f;
+    margin: 25px 0 17px;
+}
+.viewsText p{
+    line-height: 1.6em;
+}
+.bgblack{
+    background-color: black;
+}
+/* modeless css */
+.modalessBG{
+    display: none;
+    z-index: 3;
+}
+.modaless{
+    display: none;
+    z-index: 4;
+}
+.modaless ._background{
+    position: relative;
+/*    width: 768px;*/
+    height: 100%;
+    overflow: hidden;
+/*    margin: 10px;*/
+}
+._modal img{
+/*    width: 768px;*/
+}
+.modaless .arrow_container{
+    position: relative;
+    width: 100%; height: 50px;
+    vertical-align: middle;
+    line-height: 30px;
+}
+
+._modal ul{ position: relative; width:6000px;  }
+
+._modal ul li{ float: left; text-align: center; }
+
+.arrow_container a{ text-decoration: none; }
+
+.left{
+    position: relative;
+    top: -290px;
+    left: 10px;
+    float: left;
+}
+.left img{
+    width: 50px;
+}
+.right{
+    position: relative;
+    top: -290px;
+    right: 10px;
+    float: right;
+}
+.right img{
+    width: 50px;
+}
+footer{
+    position: relative; 
+    background-color: #EAEAEA !important;
+}
+footer strong, footer p, footer address{
+    color:black;
+}
+footer strong{
+    font-family: 'Playball', cursive;
+}
+footer div{
+    display: inline-block;
+}
